@@ -1,0 +1,15 @@
+#!/bin/bash
+
+export
+
+envsubst < .env.ovirt > .env
+
+# Artisan keeps a potentially outdated cache (config…)
+# cleaning the cache seem to have no effect at all
+# doing it manually then
+rm -rf bootstrap/cache bootstrap/cachet
+mkdir bootstrap/cache bootstrap/cachet
+
+php artisan app:update
+
+exec ${STI_SCRIPTS_PATH}/run
