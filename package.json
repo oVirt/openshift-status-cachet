@@ -13,7 +13,7 @@
     "jquery-minicolors": "^2.1.10",
     "jquery-serializeobject": "^1.0.0",
     "jquery-sparkline": "^2.3.2",
-    "jquery": "~2.2",
+    "jquery": "~3.5",
     "livestamp": "git+https://github.com/mattbradley/livestampjs.git#develop",
     "lodash": "^4.12.0",
     "messenger": "git+https://github.com/HubSpot/messenger.git",
