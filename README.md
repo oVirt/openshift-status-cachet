@@ -1,3 +1,14 @@
+# OpenShift Status Cachet
+
+> IMPORTANT: This project has been discontinued
+> See discussion on https://github.com/oVirt/openshift-status-cachet/pull/4
+>
+> Keeping the following section only for reference.
+
+
+
+---
+
 # Cachet
 
 [![StyleCI](https://styleci.io/repos/26730195/shield)](https://styleci.io/repos/26730195/)
